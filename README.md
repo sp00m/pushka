@@ -1,2 +1,0 @@
-# pushka
-Pushka Pushka Pushka !

@@ -1,0 +1,76 @@
+body {
+  font-family: "Indie Flower", cursive;
+  font-size: 2.2em;
+  background-color: #040b23;
+  color: #e8e8e8;
+}
+
+h1 {
+  font-family: "Sedgwick Ave Display", cursive;
+  border-bottom: solid 1px #e68300;
+  margin: 40px 0;
+  padding-bottom: 20px;
+  font-size: 2em;
+  position: relative;
+}
+
+h2 {
+  font-family: "Sedgwick Ave Display", cursive;
+}
+
+h1 a {
+  font-family: "Indie Flower", cursive;
+  font-size: 0.5em;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+}
+
+nav {
+  border-radius: 0 !important;
+  background-color: #e8e8e8 !important;
+}
+
+.nav li > a {
+  color: #777;
+  background-color: transparent !important;
+}
+
+.nav li.active > a {
+  color: #e68300 !important;
+}
+
+.navbar-brand {
+  font-size: 1em;
+  font-family: "Sedgwick Ave Display", cursive;
+}
+
+.dropdown-menu {
+  font-size: 1em;
+}
+
+.container {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.container a {
+  color: #e68300 !important;
+}
+
+.container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pushka {
+  font-family: "Sedgwick Ave Display", cursive;
+  color: #e68300;
+}

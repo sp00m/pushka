@@ -1,0 +1,15 @@
+doctype html
+html(lang="fr")
+  
+  head
+    include ./includes/head.pug
+    
+  body(class=page.key)
+    
+    header
+      include ./includes/nav.pug
+    .container
+      block content
+    
+    script(src="https://unpkg.com/jquery@3.2.1/dist/jquery.min.js")
+    script(src="https://unpkg.com/bootstrap@3.3.7/dist/js/bootstrap.min.js")
