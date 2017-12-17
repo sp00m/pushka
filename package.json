@@ -1,18 +1,10 @@
 {
   "name": "pushka",
-  "version": "1.0.0",
-  "description": "Pushka Pushka Pushka !",
-  "main": "index.js",
   "license": "UNLICENSED",
   "dependencies": {
-    "express": "^4.16.2",
-    "express-basic-auth": "^1.1.3",
     "mkdirp": "^0.5.1",
     "ncp": "^2.0.0",
     "pug": "^2.0.0-rc.4",
     "rimraf": "^2.6.2"
-  },
-  "scripts": {
-    "start": "node index.js"
   }
 }
