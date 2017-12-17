@@ -29,8 +29,8 @@ const walk = (dir) => readDir(dir)
   ));
 
 rimraf("./dist")
-  .then(() => mkdirp("./dist/static"))
-  .then(() => ncp("./static", "./dist/static"))
+  .then(() => mkdirp("./dist"))
+  .then(() => ncp("./static", "./dist"))
   .then(() => walk("./pug"))
   .then(() => console.log("Built!"))
   .catch((error) => console.error(error));
